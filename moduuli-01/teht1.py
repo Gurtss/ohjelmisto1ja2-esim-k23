@@ -1,1 +1,2 @@
-print("Moi Matti!")
+print("Moi, Matti!")
+print("Ja heippa!")
