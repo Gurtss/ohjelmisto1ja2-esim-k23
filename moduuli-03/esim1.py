@@ -12,3 +12,8 @@ if ika >= 18:
 
 # tämä lause suoritetaan aina (samalla tasolla if-ehdon kanssa)
 print('Hyvää päivän jatkoa!')
+
+# Huomautus:
+# usein näkee ehdon kirjoitettavan sulkujen sisään.
+#   if (ika >= 18):
+# Python ei vaadi tätä.
