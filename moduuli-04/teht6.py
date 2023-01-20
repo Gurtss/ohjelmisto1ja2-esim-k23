@@ -1,5 +1,4 @@
 import random
-import sys
 
 N = 1000000
 counter = 0
