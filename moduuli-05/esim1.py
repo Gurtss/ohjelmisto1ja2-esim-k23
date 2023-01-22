@@ -33,7 +33,7 @@ print(kokonaisLuvut)
 kokonaisLuvut.sort()
 
 # muuttuja index saa for-toistossa arvot 0, 1 ja 2
-print("Kolme pinintä lukuasi ovat: ")
+print("Kolme pienintä lukuasi ovat: ")
 for index in range(0, 3):
     print(kokonaisLuvut[index])
 
