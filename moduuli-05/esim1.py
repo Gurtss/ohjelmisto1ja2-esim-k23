@@ -21,7 +21,7 @@ while lukuStr != "":
 
 # kokeillaan muutamia listan valmiita toimintoja
 print(f"Annoit {len(kokonaisLuvut)} lukua")
-if kokonaisLuvut.__contains__(10):
+if 10 in kokonaisLuvut:
     print("Annoit ainakin kerran luvun 10")
     print("Poistan luvuistasi eka kympin")
     kokonaisLuvut.remove(10)
