@@ -4,6 +4,7 @@ Annetaan käyttäjälle myös tarvittavat oikeudet kaikkiin valitun tietokannan 
 
 Sinun täytyy kirjautua tietokantaan pääkäyttäjänä (admin/root/superuser),
 jotta sinulla on oikeudet tehdä nämä jutut.
+
 '''
 
 # 1. Kirjaudu MariaDB:n pääkäyttäjänä
