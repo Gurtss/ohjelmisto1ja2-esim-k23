@@ -17,3 +17,12 @@ jotta sinulla on oikeudet tehdä nämä jutut.
 # GRANT SELECT, INSERT, UPDATE, DELETE
 # ON flight_game.*
 # TO 'user1'@'localhost';
+
+# - - -
+# Joskus hyödylliaiä komentoja
+
+# Näytä lista käyttäjistä
+# SELECT USER FROM mysql.user;
+
+# Poistaa käyttäjän (ei voida perua)
+# DROP USER 'user1'@localhost;
