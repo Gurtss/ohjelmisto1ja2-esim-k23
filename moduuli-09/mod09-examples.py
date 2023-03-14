@@ -37,3 +37,13 @@ dog3 = Dog("Muro", 12, 10)
 
 print(f"Koiria luotu yhteensä: {Dog.dog_count}")
 
+# lisää koiria, sijoitetaan viittaukset listaan
+dogs = []
+for i in range(5):
+    dogs.append(Dog("Koira " + str(i+1), 5+i, 5+i*2))
+
+for dog in dogs:
+    dog.run(350)
+    dog.say_hello()
+
+print(f"Koiria luotu yhteensä: {Dog.dog_count}")
