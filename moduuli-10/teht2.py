@@ -31,13 +31,15 @@ class Hissi:
 class Talo:
 
     def __init__(self, alin, ylin, lkm):
-        # luodaan lista talon hissejä varten
+        # luodaan lista talon hisseille
         self.hissit = []
-        # luodaan uudet hissit ja lisätään ne listaan
+        # lisätään listan alkuun 'ylimääräinen hissi', jotta hissien nummerot menevät halutusti
+        self.hissit.append(Hissi(alin, alin))
+        # luodaan uudelle talolle sen varsinaiset hissit, hissit saavat nyt numerot 1, 2, 3, 4
         for nro in range(lkm):
             hissi = Hissi(alin, ylin)
-            # hissit menevät nyt listassa indekseihin 1, 2, 3, ...
-            self.hissit.insert(nro+1, hissi)
+            # huom: hissien numerointi, se ei ala nyt nollasta
+            self.hissit.append(hissi)  # lisätään uusi hissi talon hissien listalle
 
 
 
